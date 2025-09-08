@@ -64,7 +64,6 @@ body {
   top: 0;
   left: 0;
   color: var(--color-white-900);
-  box-shadow: 0 2px 10px var(--color-black-100);
   background: linear-gradient(to right, #B4C8D9, #89AFCB, #82ABC7);
   display: flex;
   align-items: center;
