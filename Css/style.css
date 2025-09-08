@@ -474,10 +474,10 @@ li > .menu__container > .grid__controling .control_center--grid {
   margin: 0 5px;
 }
 .col-7 button svg {
-  background-color: #b63333 !important;
+  background-color: #5E5CDD !important;
 }
 .col-7 button:focus {
-  background: #b63333 !important;
+  background: #5E5CDD !important;
   color: var(--color-white);
 }
 
