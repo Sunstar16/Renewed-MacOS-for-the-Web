@@ -530,7 +530,7 @@ li > .menu__container > .grid__controling .control_center--grid {
   transform: translateX(-50%);
   backdrop-filter: blur(20px);
   border: 1px solid var(--color-white-200);
-  border-radius: 14px;
+  border-radius: 18px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.555);
   z-index: 10;
 }
