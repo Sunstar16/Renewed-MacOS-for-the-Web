@@ -545,7 +545,7 @@ li > .menu__container > .grid__controling .control_center--grid {
   width: 6px;
   height: 6px;
   margin: 0;
-  background: #f08080;
+  background: #333333;
   border-radius: 50%;
   display: none;
   animation: top-to-bottom 0.3s;
