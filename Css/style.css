@@ -858,7 +858,7 @@ li > .menu__container > .grid__controling .control_center--grid {
   transform: translateX(-50%) translateY(-50%);
   border: 1px solid var(--color-white-100);
   justify-content: start;
-  border-radius: 8px;
+  border-radius: 9px;
   background-color: transparent;
   backdrop-filter: blur(10px);
   z-index: 10;
