@@ -907,7 +907,7 @@ li > .menu__container > .grid__controling .control_center--grid {
   border-bottom: 1px solid rgba(255, 255, 255, 0.582);
   border-right: 1px solid rgba(255, 255, 255, 0.219);
   border-left: 1px solid rgba(255, 255, 255, 0.219);
-  border-radius: 4px;
+  border-radius: 18px;
   padding: 0 3px;
 }
 
