@@ -903,8 +903,8 @@ li > .menu__container > .grid__controling .control_center--grid {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-top: 1px solid rgba(255, 255, 255, 0.582);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.582);
+  border-top: 1px solid rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
   border-right: 1px solid rgba(255, 255, 255, 0.9);
   border-left: 1px solid rgba(255, 255, 255, 0.9);
   border-radius: 18px;
