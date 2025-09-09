@@ -368,11 +368,10 @@ li > .menu__container > .grid__controling {
 }
 li > .menu__container > .grid__controling .control_center--grid {
   display: grid;
-  box-shadow: 0 5px 15px rgba(44, 44, 44, 0.37);
   border: 1px solid rgba(255, 255, 255, 0.178);
   overflow: hidden;
   border-radius: 12px;
-  backdrop-filter: blur(11px)
+  backdrop-filter: blur(22px)
 }
 .menu__container > .grid__controling .col-5 {
   grid-area: Toggles;
