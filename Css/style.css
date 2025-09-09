@@ -406,6 +406,10 @@ li > .menu__container > .grid__controling .control_center--grid {
   transition: all 120ms ease-in-out;
   font-family: "Lexend", sans-serif;
   cursor: url(../cursor/Link.cur), pointer;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
 }
 .sound,
 .brightness {
