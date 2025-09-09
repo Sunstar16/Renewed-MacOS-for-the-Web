@@ -344,10 +344,6 @@ li > .menu__container {
   right: 50%;
   height: 24rem;
   transform: translateX(50%);
-  background-color: rgba(224, 222, 222, 0.349);
-  backdrop-filter: blur(11px);
-  border: 1px solid rgba(70, 50, 77, 0.308);
-  box-shadow: 0 7px 15px rgba(26, 26, 26, 0.24);
   overflow: hidden;
   padding: 15px;
 }
@@ -376,6 +372,7 @@ li > .menu__container > .grid__controling .control_center--grid {
   border: 1px solid rgba(255, 255, 255, 0.178);
   overflow: hidden;
   border-radius: 12px;
+  backdrop-filter: blur(11px)
 }
 .menu__container > .grid__controling .col-5 {
   grid-area: Toggles;
