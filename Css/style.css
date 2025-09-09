@@ -531,7 +531,6 @@ li > .menu__container > .grid__controling .control_center--grid {
   backdrop-filter: blur(30px);
   border: 2px solid var(--color-white-200);
   border-radius: 18px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.555);
   z-index: 10;
 }
 
