@@ -368,7 +368,7 @@ li > .menu__container > .grid__controling {
 }
 li > .menu__container > .grid__controling .control_center--grid {
   display: grid;
-  border: 1px solid rgba(255, 255, 255, 0.178);
+  border: 2px solid rgba(255, 255, 255, 0.178);
   overflow: hidden;
   border-radius: 32px;
   backdrop-filter: blur(22px)
