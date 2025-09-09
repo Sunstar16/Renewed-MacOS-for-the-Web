@@ -339,7 +339,7 @@ li > .menu__container {
   display: none;
   position: absolute;
   width: 380px;
-  border-radius: 20px;
+  border-radius: 0px;
   top: 100%;
   right: 50%;
   height: 24rem;
