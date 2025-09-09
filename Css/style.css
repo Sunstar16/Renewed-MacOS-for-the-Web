@@ -370,7 +370,7 @@ li > .menu__container > .grid__controling .control_center--grid {
   display: grid;
   border: 1px solid rgba(255, 255, 255, 0.178);
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 32px;
   backdrop-filter: blur(22px)
 }
 .menu__container > .grid__controling .col-5 {
