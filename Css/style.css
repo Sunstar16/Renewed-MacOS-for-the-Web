@@ -932,12 +932,13 @@ li > .menu__container > .grid__controling .control_center--grid {
 
 .Apps-container {
   width: 90%;
-  height: 60%;
+  height: 74%;
   margin: 0 auto;
+  margin-top: -1%;
   display: grid;
   grid-row-gap: 10px;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: repeat(5, 1fr);
 }
 
 .launchpad .child-launchpad {
