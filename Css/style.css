@@ -287,7 +287,7 @@ li > ul {
   font-weight: 600;
   padding: 4px;
   min-width: 200px;
-  background: var(--color-white-400);
+  background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11px);
   border-radius: 5px;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.363);
@@ -897,7 +897,7 @@ li > .menu__container > .grid__controling .control_center--grid {
 
 .searchbox .searchContainer {
   height: 30px;
-  width: 220px;
+  width: 240px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
