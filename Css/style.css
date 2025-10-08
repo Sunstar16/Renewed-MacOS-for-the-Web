@@ -936,7 +936,7 @@ li > .menu__container > .grid__controling .control_center--grid {
   margin: 0 auto;
   display: grid;
   grid-row-gap: 10px;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 25% 25% 25% 25%;
 }
 
