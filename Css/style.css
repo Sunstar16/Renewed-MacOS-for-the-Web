@@ -919,6 +919,8 @@ li > .menu__container > .grid__controling .control_center--grid {
   font-size: 17px;
   height: 100%;
   font-family: "Roboto", sans-serif;
+  left: -4px;
+  position: relative;
 }
 
 .searchbox input::placeholder {
