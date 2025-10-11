@@ -6,4 +6,4 @@ HERE: https://sunstar16.github.io/Renewed-MacOS-for-the-Web/
 -Compatible with any system
 -Compatible with any browser
 
-THIS PROYECT IS IN PROGRESS AND WILL BE POLISHED ON A SHORT FUTURE!
+THIS PROYECT IS IN PROGRESS AND IS BEING MAINTAINED!
