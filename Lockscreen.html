@@ -32,17 +32,21 @@
             position: relative;
             left: -10px;
         }
-
+        .top-bar span {
+            font-size: 0.7em; /* Makes the span characters much smaller */
+            position: relative;
+            top: -8px;
+            left: -3px;
+        }
         .clock {
-    font-family: 'SFProText-Semibold';
-    color: rgba(255, 255, 255, 0.70);
-    transform: scaleY(1.05);
+            font-family: 'SFProText-Semibold';
+            color: rgba(255, 255, 255, 0.70);
+            transform: scaleY(1.05);
             
-        div#time& {
-                scale: 1.7;
+            div#time& {
+                scale: 1.8;
             }
         }
-
         .date-time {
             left: 0px;
             position: relative;
@@ -59,7 +63,6 @@
             top: -10px;
             left: -3px;
         }
-
         .user-info img {
             width: 50px;
             height: 50px;
@@ -67,9 +70,7 @@
             position: relative;
             left: 110px;
             border: 2px solid rgba(255, 255, 255, 0.3);
-           
         }
-
         .password-box input {
             margin: 10px 0;
             padding: 5px;
@@ -83,21 +84,15 @@
             box-sizing: border-box;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
-
         input#password::placeholder {
             color: rgba(255, 255, 255, 0.50);
         }
-
         .password-box input#password:focus {
-                  outline: none;
-            }
-
-
+            outline: none;
+        }
         .password-box input#password:focus-visible {
-                  outline: none;
-            }
-
-
+            outline: none;
+        }
         .password-box button {
             margin: 10px 0;
             padding: 5px 10px;
@@ -110,9 +105,8 @@
             left: 70px;
             visibility: hidden;
         }
-        /* Background image placeholder - replace the gradient with an image URL or file path */
         body {
-            background-image: url('https://512pixels.net/wp-content/uploads/2025/06/26-Tahoe-Light-Thumb-1.png'); /* Add your image URL or file path here, e.g., url('path/to/your/image.jpg') */
+            background-image: url('https://512pixels.net/wp-content/uploads/2025/06/26-Tahoe-Light-Thumb-1.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -121,7 +115,7 @@
 </head>
 <body>
     <div class="top-bar">
-        <span>US ⌨ 🔋</span>
+        <span>U.S. ⌨ 🔋</span>
     </div>
     <div class="date-time">
         <div class="date">Friday, October 10</div>
@@ -138,7 +132,6 @@
         <input type="password" id="password" placeholder="Password = 1234                            ➜">
         <button onclick="checkPassword()">Enter Password</button>
     </div>
-
     <script>
         function updateTime() {
             const now = new Date();
@@ -152,7 +145,6 @@
             document.querySelector('.date').textContent = `${day}, ${month} ${date}`;
             document.getElementById('time').textContent = `${hours}:${minutes}`;
         }
-
         function checkPassword() {
             const password = document.getElementById('password').value;
             if (password === '1234') {
@@ -161,11 +153,8 @@
                 alert('Incorrect password. Please try again.');
             }
         }
-
         setInterval(updateTime, 60000);
         updateTime();
-
-        // Add event listener for Enter key
         document.getElementById('password').addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
                 checkPassword();
