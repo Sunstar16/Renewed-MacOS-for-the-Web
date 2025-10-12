@@ -1,6 +1,5 @@
 # Remastered-MacOS-for-the-Web
-Renewed continuation of the famous project (https://github.com/mhmdmhd6/Mac-OS-Desktop/) that recreated a macOS feeling desktop, but now updated!
-
+Renewed continuation of an old famous project that recreated a macOS desktop, but now updated to the newest version with fixes, improvements and features!
 HERE: https://sunstar16.github.io/Renewed-MacOS-for-the-Web/
 
 -Compatible with any system
