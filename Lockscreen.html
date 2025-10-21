@@ -15,7 +15,6 @@
             margin: 0;
             padding: 0;
             font-family: 'SFProText-Semibold', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96c93d);
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -120,14 +119,25 @@
             visibility: hidden;
         }
         body {
-            background-image: url('https://512pixels.net/wp-content/uploads/2025/06/26-Tahoe-Light-Thumb-1.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
+        video.background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0; /* Places video above background image but below other elements */
+        }
     </style>
 </head>
 <body>
+    <video class="background-video" autoplay muted loop>
+        <source src="#" type="video/mp4">
+    </video>
     <div class="top-bar">
         <span>U.S. ⌨ 🔋</span>
     </div>
@@ -144,7 +154,7 @@
                 <div style="font-size: 0.8em; opacity: 0.7;"></div>
             </div>
         </div>
-        <input type="password" id="password" placeholder="Password = 1234                            ➜">
+        <input type="password" id="password" placeholder="Password = 1234            ➜">
         <button onclick="checkPassword()">Enter Password</button>
     </div>
     <script>
@@ -175,6 +185,16 @@
                 checkPassword();
             }
         });
+        // Load background image with delay only if video URL is valid
+        const video = document.querySelector('.background-video');
+        const videoSrc = video.querySelector('source').getAttribute('src');
+        if (videoSrc === '#' || !videoSrc) {
+            document.body.style.backgroundImage = "url('https://512pixels.net/wp-content/uploads/2025/06/26-Tahoe-Light-Thumb-1.png')";
+        } else {
+            setTimeout(function() {
+                document.body.style.backgroundImage = "url('https://512pixels.net/wp-content/uploads/2025/06/26-Tahoe-Light-Thumb-1.png')";
+            }, 500);
+        }
     </script>
 </body>
 </html>
